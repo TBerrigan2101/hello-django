@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-=hgl61rh7-w@z7pq#21^q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = ['tb-testing-app-0ef53bf9ecec.herokuapp.com', '8000-tberrigan21-hellodjango-at1wdc91ype.ws-eu102.gitpod.io', 'tb-django-todo-app-709a2cc197bc.herokuapp.com']
 
 
 # Application definition
